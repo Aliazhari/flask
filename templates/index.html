@@ -1,0 +1,14 @@
+<!-- ******************************************
+*  Author : Ali Azhari   
+*  Created On : Fri Nov 25 2022
+*  File : index.html
+******************************************* -->
+
+{% extends "layout.html" %}
+
+{% block body %}
+   <form action="/greet" method="POST">
+    <input type="text" name="name">
+    <input type="submit" >
+   </form>
+{% endblock %}
